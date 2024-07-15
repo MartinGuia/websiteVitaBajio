@@ -1,0 +1,1 @@
+export { default as logoVB } from "./logoVB.png";

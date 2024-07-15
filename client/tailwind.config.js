@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'neutralSilver': '#F5F7FA',
+        'NeutralDGrey': '#4D4D4D',
+        'brandPrimary': '#4CAF4F',
+       'neutralGrey': '#717171',
+      }
+    },
   },
   plugins: [],
 }
