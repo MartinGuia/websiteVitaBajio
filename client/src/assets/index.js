@@ -1,1 +1,17 @@
 export { default as logoVB } from "./logoVB.png";
+export { default as main1 } from "./main_1.jpg";
+export { default as slider1 } from "./slider1.jpg";
+export { default as gab } from "./gab.png";
+export { default as GYM } from "./GYM.png";
+export { default as moviza } from "./moviza.jpg";
+export { default as tminerva } from "./tminerva.jpg";
+export { default as amealcenses } from "./amealcenses.png";
+export { default as inspeccionElec } from "./inspeccionElec.png";
+export { default as raspado } from "./raspado.png";
+export { default as cardeo } from "./cardeo.png";
+export { default as reparaciones } from "./reparaciones.png";
+export { default as aplicacionCojin } from "./aplicacionCojin.png";
+export { default as embandado } from "./embandado.png";
+export { default as encamisado } from "./encamisado.png";
+export { default as vulcanizado } from "./vulcanizado.png";
+export { default as inspeccionFinal } from "./inspeccionFinal.png";
