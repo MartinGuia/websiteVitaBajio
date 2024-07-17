@@ -47,7 +47,7 @@ function Navbar() {
         <div className="flex justify-between items-center text-base gap-8">
           <a className="text-2xl font-semibold space-x-3" href="">
             <img
-              className="w-32 inline-block items-center"
+              className="w-20 lg:w-32 inline-block items-center"
               src={images.logoVB}
               alt=""
             />
@@ -74,11 +74,11 @@ function Navbar() {
           <div className="space-x-12 hidden lg:flex items-center">
             <a
               href="/"
-              className="hidden lg:flex items-center text-brandPrimary hover:text-gray900"
+              className="hidden lg:flex items-center text-yellow-400 hover:text-gray900"
             >
               Login
             </a>
-            <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-NeutralDGrey">
+            <button className="bg-yellow-400 text-white py-2 px-4 transition-all duration-300 rounded hover:bg-NeutralDGrey">
               Sign Up
             </button>
           </div>
