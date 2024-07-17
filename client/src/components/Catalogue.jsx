@@ -1,5 +1,6 @@
 import { GiFlatTire } from "react-icons/gi";
 import { PiTireDuotone } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 function Catalogue() {
   const catalogues = [
@@ -8,14 +9,16 @@ function Catalogue() {
       title: "Llanta renovada",
       description:
         "Descubre nuestra gama de llantas renovadas, una opción ecológica y económica que no sacrifica la calidad.",
-      icon: <GiFlatTire className="size-14"/>
+      icon: <GiFlatTire className="size-14 -ml-5" />,
+      to: "/llanta-renovada",
     },
     {
       id: 2,
       title: "Llanta Nueva",
       description:
         "Explora nuestro catálogo de llantas nuevas, diseñado para ofrecerte lo último en tecnología y rendimiento. Con una variedad de marcas líderes y tamaños para cada tipo de vehículo, garantizamos una conducción suave, segura y eficiente.",
-        icon: <PiTireDuotone className="size-14"/>
+      icon: <PiTireDuotone className="size-14 -ml-5" />,
+      to: "/llanta-nueva",
     },
   ];
   return (
@@ -43,11 +46,19 @@ function Catalogue() {
               key={catalogue.id}
               className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
             >
-              <div >
-                <div className="bg-[#E8F5E9] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl"><div>{catalogue.icon}</div></div>
-                <h4 className="text-2xl font-bold text-NeutralDGrey mb-2 px-2">{catalogue.title}</h4>
-                <p className="text-sm text-neutralGrey">{catalogue.description}</p>
-              </div>
+              <Link to={catalogue.to}>
+                <div>
+                  <div className="bg-[#E8F5E9] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl">
+                    <div>{catalogue.icon}</div>
+                  </div>
+                  <h4 className="text-2xl font-bold text-NeutralDGrey mb-2 px-2">
+                    {catalogue.title}
+                  </h4>
+                  <p className="text-sm text-neutralGrey">
+                    {catalogue.description}
+                  </p>
+                </div>
+              </Link>
             </div>
           ))}
         </div>

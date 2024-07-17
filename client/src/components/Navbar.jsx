@@ -27,10 +27,10 @@ function Navbar() {
 
   //navitems array
   const navItems = [
-    { link: "Home", path: "home" },
-    { link: "Services", path: "services" },
-    { link: "About", path: "about" },
-    { link: "Product", path: "product" },
+    { link: "Inicio", path: "home" },
+    { link: "Servicios", path: "services" },
+    { link: "Sobre nosotros", path: "about" },
+    { link: "Catalogo", path: "product" },
     { link: "Testimonial", path: "testimonial" },
     { link: "FAQ", path: "faq" },
   ];
@@ -45,7 +45,7 @@ function Navbar() {
         }`}
       >
         <div className="flex justify-between items-center text-base gap-8">
-          <a className="text-2xl font-semibold space-x-3" href="">
+          <a className="text-2xl font-semibold space-x-3" href="/">
             <img
               className="w-20 lg:w-32 inline-block items-center"
               src={images.logoVB}
