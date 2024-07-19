@@ -90,7 +90,11 @@ function NewFreeAxle() {
               </div>
             </h1>
             <div className="mt-1">
-              <img className="size-28" src={card.img1} alt="Llanta nueva eje libre" />
+              <img
+                className="size-28"
+                src={card.img1}
+                alt="Llanta nueva eje libre"
+              />
             </div>
             <div className="flex">
               <img src={card.img2} alt="Eje libre" />
@@ -105,7 +109,7 @@ function NewFreeAxle() {
         <ModalWindow item={selectedItem} onClose={handleCloseModal} />
       )}
     </>
-  )
+  );
 }
 
-export default NewFreeAxle
+export default NewFreeAxle;

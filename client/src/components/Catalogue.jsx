@@ -22,7 +22,7 @@ function Catalogue() {
     },
   ];
   return (
-    <div className="md:px-14 px-4 max-w-screen-2xl mx-auto">
+    <div className="md:px-14 px-4 pb-10 max-w-screen-2xl mx-auto">
       <div className="mt-10 md:1/2 mx-auto text-center">
         <h2 className="text-4xl text-NeutralDGrey font-semibold mb-3">
           Catalogo de llantas

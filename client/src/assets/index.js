@@ -99,3 +99,5 @@ export { default as B } from "./B.png";
 export { default as F } from "./F.png";
 export { default as Firestone } from "./Firestone.png";
 export { default as bridgestone } from "./bridgestone.png";
+export { default as whatsapp } from "./whatsapp.png";
+export { default as facebook } from "./facebook.png";

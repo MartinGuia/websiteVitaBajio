@@ -65,8 +65,12 @@ function Services() {
           Nuestros clientes
         </h2>
         <p className="text-neutralGrey">
-          Hemos trabajado con gran variedad de marcas que se encargan a
-          distintos comercios{" "}
+          Damos servicio de venta de llanta nueva y renovado a las principales
+          empresas de transporte de carga, personal y logística en la región
+          Bajío, tales como Express MILAC, Coca Cola, Transportes Tresguerras,
+          Transportes Gym Moncolva, Trans-Energéticos, Royal Transports,
+          Pilgrim’s Pride, Transportes Urbanos de
+          Querétaro,Translíquidos,Transnoel, etc.
         </p>
         {/* Company logo */}
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
@@ -115,27 +119,27 @@ function Services() {
           </div>
         </div>
         {/* Text */}
-      <article className="md:ml-10 md:w-[50%]">
-        <div className="mb-4 text-center">
-          <h2 className="text-4xl text-NeutralDGrey font-semibold mb-2 text-center">
-            Renovar en lugar de comprar
-          </h2>
-        </div>
-        <div>
-          <p className="text-justify">
-            Un buen renovado ayuda a los propietarios de negocios inteligentes a
-            incrementar el rendimiento de sus llantas y reducir sus costos de
-            operación. Hoy en día la mayoría de las flotas de camiones,
-            aerolíneas, empresas de construcción, agricultures e incluso
-            autobuses escolares utilizan este proceso para eficientar sus costos
-            sin sacrificar seguridad, calidad, desempeño, tecnología,
-            kilometraje y sustentabilidad. Tú también reduce los costos de tu
-            empresa y aumenta los beneficios de tu flota con un buen renovado,
-            no te dejes llevar por los mitos y conoce todas las ventajas que
-            ofrece el ronovado.
-          </p>
-        </div>
-      </article>
+        <article className="md:ml-10 md:w-[50%]">
+          <div className="mb-4 text-center">
+            <h2 className="text-4xl text-NeutralDGrey font-semibold mb-2 text-center">
+              Renovar en lugar de comprar
+            </h2>
+          </div>
+          <div>
+            <p className="text-justify">
+              Un buen renovado ayuda a los propietarios de negocios inteligentes
+              a incrementar el rendimiento de sus llantas y reducir sus costos
+              de operación. Hoy en día la mayoría de las flotas de camiones,
+              aerolíneas, empresas de construcción, agricultures e incluso
+              autobuses escolares utilizan este proceso para eficientar sus
+              costos sin sacrificar seguridad, calidad, desempeño, tecnología,
+              kilometraje y sustentabilidad. Tú también reduce los costos de tu
+              empresa y aumenta los beneficios de tu flota con un buen renovado,
+              no te dejes llevar por los mitos y conoce todas las ventajas que
+              ofrece el ronovado.
+            </p>
+          </div>
+        </article>
       </div>
     </div>
   );

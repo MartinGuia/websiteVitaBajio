@@ -543,36 +543,39 @@ function NewAllPosition() {
   };
   return (
     <>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-3">
-      {CatalogueTodaPosicion.map((card) => (
-        <button
-          key={card.id}
-          onClick={() => handleOpenModal(card)}
-          className="flex flex-col border-[1px] rounded-xl items-center w-full shadow-xl hover:-translate-y-3 duration-700  bg-slate-100"
-        >
-          <h1 className="bg-yellow-300 w-full rounded-t-lg flex text-white font-semibold p-2 shadow-md">
-            <div className="w-[90%]">{card.title}</div>
-            <div className="w-[10%]">
-              <img className="size-6" src={card.logo2} alt="" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-3">
+        {CatalogueTodaPosicion.map((card) => (
+          <button
+            key={card.id}
+            onClick={() => handleOpenModal(card)}
+            className="flex flex-col border-[1px] rounded-xl items-center w-full shadow-xl hover:-translate-y-3 duration-700  bg-slate-100"
+          >
+            <h1 className="bg-yellow-300 w-full rounded-t-lg flex text-white font-semibold p-2 shadow-md">
+              <div className="w-[90%]">{card.title}</div>
+              <div className="w-[10%]">
+                <img className="size-6" src={card.logo2} alt="" />
+              </div>
+            </h1>
+            <div className="mt-1">
+              <img
+                className="size-28"
+                src={card.img1}
+                alt="Llanta nueva de toda posición"
+              />
             </div>
-          </h1>
-          <div className="mt-1">
-            <img className="size-28" src={card.img1} alt="Llanta nueva de toda posición" />
-          </div>
-          <div className="flex">
-            <img src={card.img2} alt="Toda posición" />
-            <img src={card.img3} alt="Tipo de camino" />
-            <img src={card.img4} alt="" />
-          </div>
-        </button>
-      ))}
-    </div>
+            <div className="flex">
+              <img src={card.img2} alt="Toda posición" />
+              <img src={card.img3} alt="Tipo de camino" />
+              <img src={card.img4} alt="" />
+            </div>
+          </button>
+        ))}
+      </div>
 
-    {isModalOpen && (
-      <ModalWindow item={selectedItem} onClose={handleCloseModal} />
-    )}
-  </>
-    
+      {isModalOpen && (
+        <ModalWindow item={selectedItem} onClose={handleCloseModal} />
+      )}
+    </>
   );
 }
 

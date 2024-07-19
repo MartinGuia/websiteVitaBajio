@@ -1,6 +1,7 @@
 import React from "react";
 
-function ModalWindow({ item, onClose }) { // Acepta item y onClose como props
+function ModalWindow({ item, onClose }) {
+  // Acepta item y onClose como props
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50 max-[540px]:text-sm">

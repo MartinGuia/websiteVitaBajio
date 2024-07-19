@@ -274,7 +274,7 @@ function NewTraction() {
   };
 
   return (
-     <>
+    <>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-3">
         {CatalogueTraccion.map((card) => (
           <button
@@ -289,7 +289,11 @@ function NewTraction() {
               </div>
             </h1>
             <div className="mt-1">
-              <img className="size-28" src={card.img1} alt="Llanta nueva para tracción" />
+              <img
+                className="size-28"
+                src={card.img1}
+                alt="Llanta nueva para tracción"
+              />
             </div>
             <div className="flex">
               <img src={card.img2} alt="Tracción" />

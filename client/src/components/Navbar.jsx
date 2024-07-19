@@ -29,10 +29,10 @@ function Navbar() {
   const navItems = [
     { link: "Inicio", path: "home" },
     { link: "Servicios", path: "services" },
-    { link: "Sobre nosotros", path: "about" },
     { link: "Catalogo", path: "product" },
-    { link: "Testimonial", path: "testimonial" },
-    { link: "FAQ", path: "faq" },
+    { link: "Sobre nosotros", path: "about" },
+    // { link: "Testimonial", path: "testimonial" },
+    // { link: "FAQ", path: "faq" },
   ];
 
   return (
@@ -51,7 +51,7 @@ function Navbar() {
               src={images.logoVB}
               alt=""
             />
-            <span className="text-[#263238]">Vita Bajío</span>
+            {/* <span className="text-[#263238]">Vita Bajío</span> */}
           </a>
 
           {/* nav items for large devices */}
@@ -99,7 +99,11 @@ function Navbar() {
         </div>
 
         {/* Nav items for mobile devices */}
-        <div className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen ? "block fixed top-8 right-0 left-0" : "hidden"}`}>
+        <div
+          className={`space-y-4 px-4 mt-12 py-7 bg-brandPrimary ${
+            isMenuOpen ? "block fixed top-8 right-0 left-0" : "hidden"
+          }`}
+        >
           {navItems.map(({ link, path }) => (
             <Link
               to={path}

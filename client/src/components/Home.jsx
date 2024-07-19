@@ -32,8 +32,11 @@ function Home() {
             {/* hero text */}
             <div className="md:w-1/2">
               <h1 className="md:text-4xl lg:text-5xl text-3xl font-semibold mb-4 text-NeutralDGrey md:w-3/4 leading-snug">
-              "Rodando hacia el futuro:
-                <span className="text-yellow-300 leading-snug"> Calidad y Seguridad en cada giro.</span>
+                "Rodando hacia el futuro:
+                <span className="text-yellow-300 leading-snug">
+                  {" "}
+                  Calidad y Seguridad en cada giro.
+                </span>
               </h1>
               <p className="text-NeutralDGrey text-base mb-8">
                 Desde hace mas de 10 años ofreciendo el servicio de venta de
@@ -47,8 +50,8 @@ function Home() {
             <div>
               <img className="w-96" src={images.main1} alt="" />
             </div> */}
-            {/* hero text */}
-            {/* <div className="md:w-1/2">
+          {/* hero text */}
+          {/* <div className="md:w-1/2">
               <h1 className="text-5xl font-semibold mb-4 text-NeutralDGrey md:w-3/4 leading-snug">
                 Vita
                 <span className="text-yellow-300 leading-snug"> Bajío</span>
