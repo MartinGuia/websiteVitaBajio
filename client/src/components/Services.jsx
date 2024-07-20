@@ -1,5 +1,9 @@
 import * as images from "../assets/index.js";
 import React, { useState } from "react";
+import { FaHandsHelping } from "react-icons/fa";
+// import { TbTruckDelivery } from "react-icons/tb";
+import { MdRequestQuote } from "react-icons/md";
+import { CiDeliveryTruck } from "react-icons/ci";
 
 function Services() {
   const [currentStep, setCurrentStep] = useState(1);
@@ -55,6 +59,40 @@ function Services() {
     },
   ];
 
+  const quotes = [
+    {
+      id: 1,
+      title: "Asesorate",
+      description:
+        "Contáctanos y recibe una asesoría personalizada para elegir la mejor calidad y precio para tu negocio.",
+      icon: <FaHandsHelping className="size-14 " />,
+      to: "/llanta-renovada",
+    },
+    // {
+    //   id: 2,
+    //   title: "Llama",
+    //   description:
+    //     "Llámanos para hacer tu pedido.",
+    //   icon: <TbTruckDelivery className="size-14" />,
+    //   to: "/llanta-nueva",
+    // },
+    {
+      id: 2,
+      title: "Cotiza y compra",
+      description:
+        "Revisa todo nuestro stock, realiza tus cotizaciones al momento y compra solo lo que necesites.",
+      icon: <MdRequestQuote className="size-14" />,
+      to: "/llanta-nueva",
+    },
+    {
+      id: 3,
+      title: "Recibe",
+      description:
+        "Recibe en la comodidad de tu empresa o recoge tu pedido en nuestras sucursales.",
+      icon: <CiDeliveryTruck className="size-14" />,
+      to: "/llanta-nueva",
+    },
+  ];
   const goToStep = (step) => {
     setCurrentStep(step);
   };
@@ -140,6 +178,41 @@ function Services() {
             </p>
           </div>
         </article>
+      </div>
+      <div className="mt-14 md:1/2 mx-auto text-center">
+        <h2 className="text-4xl text-NeutralDGrey font-semibold mb-3">
+          Realiza la <span className="text-yellow-300">compra</span> en 3 pasos
+        </h2>
+        {/* <p className="text-neutralGrey">
+          Explora nuestro catálogo en línea y descubre la mejor selección de
+          llantas nuevas y bandas renovadas para tus vehículos, te ofrecemos la
+          conveniencia de elegir entre dos opciones: una sección dedicada a las
+          llantas nuevas, donde encontrarás una amplia variedad de modelos para
+          satisfacer tus necesidades y preferencias; y otra sección dedicada a
+          las bandas renovadas, donde podrás encontrar opciones económicas y de
+          calidad para prolongar la vida útil de tus llantas. Confía en nuestra
+          experiencia y encuentra la opción perfecta para optimizar el
+          rendimiento y seguridad de tus vehículos.
+        </p> */}
+
+        {/* cards */}
+        <div className="mt-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
+          {quotes.map((quote) => (
+            <div className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md flex items-center justify-center h-full">
+              <div>
+                <div className="flex items-center justify-center">
+                  <div className="mb-4 h-14 w-14  ">
+                    <div>{quote.icon}</div>
+                  </div>
+                  <h4 className="text-xl font-bold text-NeutralDGrey mb-2 px-2">
+                    {quote.title}
+                  </h4>
+                </div>
+                <p className="text-sm text-neutralGrey">{quote.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

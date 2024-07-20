@@ -9,7 +9,7 @@ function Home() {
           {/* carousel1 */}
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img className="w-96" src={images.main1} alt="" />
+              <img className="" src={images.main1} alt="" />
             </div>
             {/* hero text */}
             <div className="md:w-1/2">
@@ -26,8 +26,8 @@ function Home() {
           </div>
           {/* carousel2 */}
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
-            <div>
-              <img className="w-96" src={images.slider1} alt="" />
+            <div className="w-[60%]">
+              <img className="" src={images.slider1} alt="" />
             </div>
             {/* hero text */}
             <div className="md:w-1/2">
