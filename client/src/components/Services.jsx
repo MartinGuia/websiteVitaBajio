@@ -97,8 +97,8 @@ function Services() {
     setCurrentStep(step);
   };
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
-      <div className="text-center my-8">
+    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="services">
+      <div className="text-center my-8" id="services">
         <h2 className="text-4xl text-NeutralDGrey font-semibold mb-2">
           Nuestros clientes
         </h2>
@@ -157,10 +157,10 @@ function Services() {
           </div>
         </div>
         {/* Text */}
-        <article className="md:ml-10 md:w-[50%]">
+        <article className="md:ml-10 md:w-[50%] mt-6 md:mt-0">
           <div className="mb-4 text-center">
             <h2 className="text-4xl text-NeutralDGrey font-semibold mb-2 text-center">
-              Renovar en lugar de comprar
+              <span className="text-yellow-300">Renovar</span> en lugar de comprar
             </h2>
           </div>
           <div>
@@ -196,9 +196,9 @@ function Services() {
         </p> */}
 
         {/* cards */}
-        <div className="mt-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12">
-          {quotes.map((quote) => (
-            <div className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md flex items-center justify-center h-full">
+        <div className="mt-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12 md:gap-8">
+          {quotes.map((quote, id) => (
+            <div key={id}  className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-60 sm:h-80 rounded-md flex items-center justify-center h-full">
               <div>
                 <div className="flex items-center justify-center">
                   <div className="mb-4 h-14 w-14  ">
@@ -206,6 +206,7 @@ function Services() {
                   </div>
                   <h4 className="text-xl font-bold text-NeutralDGrey mb-2 px-2">
                     {quote.title}
+                    <hr className="border-b-2 w-auto border-b-yellow-300"/>
                   </h4>
                 </div>
                 <p className="text-sm text-neutralGrey">{quote.description}</p>

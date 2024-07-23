@@ -3,6 +3,8 @@ import { useState } from "react";
 import RenewedAllPosition from "../components/RenewedAllPosition.jsx";
 import RenewedTraction from "../components/RenewedTraction.jsx";
 import RenewedFreeAxle from "../components/RenewedFreeAxle.jsx";
+import { FaArrowLeftLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function RenewedCatalog() {
   const [vista, setVista] = useState("todaPosicion");
@@ -53,13 +55,13 @@ function RenewedCatalog() {
             Llanta nueva
           </h1>
         </div>
-        {/* <div className="relative bottom-6 right-[40%]">
-          <Link to="/llantas">
+        <div className="relative bottom-6 right-[40%]">
+          <Link to="/">
             <button className="bg-white rounded-full p-1 shadow-lg shadow-slate-800/60">
-              <img src={images.flecha} className="size-6" alt="" />
+              <FaArrowLeftLong className="w-7 h-7" />
             </button>
           </Link>
-        </div> */}
+        </div>
 
         <div className="flex justify-around mt-5 max-[430px]:flex-col max-[430px]:items-center">
           <button

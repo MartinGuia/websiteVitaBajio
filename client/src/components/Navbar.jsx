@@ -29,7 +29,7 @@ function Navbar() {
   const navItems = [
     { link: "Inicio", path: "home" },
     { link: "Servicios", path: "services" },
-    { link: "Catalogo", path: "product" },
+    { link: "Catalogo", path: "catalogo" },
     { link: "Sobre nosotros", path: "about" },
     // { link: "Testimonial", path: "testimonial" },
     // { link: "FAQ", path: "faq" },

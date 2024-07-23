@@ -12,6 +12,9 @@ module.exports = {
         neutralGrey: "#717171",
         gray900: "#18191F",
       },
+      backgroundImage:{
+        "my-backgroundImage": "url('C:/Users/marke/OneDrive/Documentos/websiteVitabajio/client/src/assets/marcas1.png')"
+      }
     },
   },
   plugins: [flowbite.plugin()],
