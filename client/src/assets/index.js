@@ -101,3 +101,6 @@ export { default as Firestone } from "./Firestone.png";
 export { default as bridgestone } from "./bridgestone.png";
 export { default as whatsapp } from "./whatsapp.png";
 export { default as facebook } from "./facebook.png";
+export { default as blog1 } from "./blog1.jpeg";
+export { default as blog2 } from "./blog2.jpeg";
+export { default as blog3 } from "./blog3.jpeg";

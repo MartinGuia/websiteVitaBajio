@@ -1,10 +1,32 @@
 import React from "react";
 import ButtonFacebook from "./ui/ButtonFacebook";
 import ButtonWhatsapp from "./ui/ButtonWhatsapp";
+import * as images from "../assets/index.js";
 
 function AboutUs() {
   return (
-    <div id="about">
+    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="about">
+      <div className="text-center my-8" >
+        <h2 className="text-4xl text-NeutralDGrey font-semibold mb-2">
+          Nuestros clientes
+        </h2>
+        <p className="text-neutralGrey">
+          Damos servicio de venta de llanta nueva y renovado a las principales
+          empresas de transporte de carga, personal y logística en la región
+          Bajío, tales como Express MILAC, Coca Cola, Transportes Tresguerras,
+          Transportes Gym Moncolva, Trans-Energéticos, Royal Transports,
+          Pilgrim’s Pride, Transportes Urbanos de
+          Querétaro,Translíquidos,Transnoel, etc.
+        </p>
+        {/* Company logo */}
+        <div className="my-12 flex flex-wrap justify-between items-center gap-8">
+          <img className="w-[12%]" src={images.amealcenses} alt="" />
+          <img className="w-[12%]" src={images.GYM} alt="" />
+          <img className="w-[12%]" src={images.gab} alt="" />
+          <img className="w-[12%]" src={images.moviza} alt="" />
+          <img className="w-[12%]" src={images.tminerva} alt="" />
+        </div>
+      </div>
       {/* about text */}
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">

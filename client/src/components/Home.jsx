@@ -1,12 +1,18 @@
 import { Carousel } from "flowbite-react";
 import * as images from "../assets/index.js";
 import { Link } from "react-router-dom";
+import ButtonWhatsapp from "./ui/ButtonWhatsapp.jsx";
 
 function Home() {
+  const phoneNumber = "524641363889"; // Reemplaza con tu número de WhatsApp
+  const message = "¡Hola! Me gustaría solicitar una cotización.";
   return (
     <div className=" bg-my-backgroundImage bg-no-repeat bg-cover bg-center">
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
-        <Carousel className="w-full mx-auto duration-700" id="home">
+      <div
+        className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen"
+        id="home"
+      >
+        <Carousel className="w-full mx-auto duration-700">
           {/* carousel1 */}
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div className="w-[80%] lg:w-auto">
@@ -22,9 +28,10 @@ function Home() {
                 Desde hace mas de 10 años ofreciendo el servicio de venta de
                 llanta nueva y renovada
               </p>
-              <Link to="/cotizacion">
-                <button className="btn-primary">Cotiza tus llantas</button>
-              </Link>
+              <p className="font-semibold">Solicita asesoramiento</p>
+              <div>
+                <ButtonWhatsapp phoneNumber={phoneNumber} message={message} />
+              </div>
             </div>
           </div>
           {/* carousel2 */}
@@ -42,11 +49,13 @@ function Home() {
               </h1>
               <p className="text-NeutralDGrey text-base mb-8">
                 Manejamos llantas para camión en todas las medidas, de la marca
-                Bridgestone, Firestone, Dayton, Hankook y Aurora; así como el
+                Bridgestone, Firestone, Dayton; así como el
                 renovado de llantas Bandag, con más de 50 modelos de banda de
                 acuerdo a la necesidad de cada uno de nuestros clientes.
               </p>
-              {/* <button className="btn-primary">Cotiza tus llantas</button> */}
+              <Link to="/cotizacion">
+                <button className="btn-primary">Cotiza tus llantas</button>
+              </Link>
             </div>
           </div>
           {/* carousel3 */}

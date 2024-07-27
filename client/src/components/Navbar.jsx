@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as images from "../assets/index.js";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from 'react-scroll';
 import { FaBars, FaXmark } from "react-icons/fa6";
 
 function Navbar() {
@@ -19,11 +20,11 @@ function Navbar() {
         setIsSticky(false);
       }
     };
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.addEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
-  });
+  }, []);
 
   //navitems array
   const navItems = [
@@ -57,20 +58,20 @@ function Navbar() {
           {/* nav items for large devices */}
           <ul className="md:flex space-x-12 hidden">
             {navItems.map(({ link, path }) => (
-              <Link
+              <ScrollLink
                 to={path}
                 spy={true}
                 smooth={true}
                 offset={-100}
                 key={path}
-                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium"
+                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium cursor-pointer"
               >
                 {link}
-              </Link>
+              </ScrollLink>
             ))}
           </ul>
 
-          {/* btn for large devices */}
+          {/* btn for large devices
           <div className="space-x-12 hidden lg:flex items-center">
             <a
               href="/"
@@ -81,12 +82,12 @@ function Navbar() {
             <button className="bg-yellow-400 text-white py-2 px-4 transition-all duration-300 rounded hover:bg-NeutralDGrey">
               Sign Up
             </button>
-          </div>
+          </div> */}
 
           {/* Menu btn for only mobile devices */}
           <div className="md:hidden">
             <button
-              className="text-NeutralDGrey focus:outline-none focus:text-gray-500"
+              className="text-NeutralDGrey focus:outline-none focus:text-gray-500 "
               onClick={toggleMenu}
             >
               {isMenuOpen ? (
@@ -100,21 +101,21 @@ function Navbar() {
 
         {/* Nav items for mobile devices */}
         <div
-          className={`space-y-4 px-4 mt-12 py-7 bg-brandPrimary ${
+          className={`space-y-4 px-4 mt-12 py-7 bg-yellow-300 ${
             isMenuOpen ? "block fixed top-8 right-0 left-0" : "hidden"
           }`}
         >
           {navItems.map(({ link, path }) => (
-            <Link
+            <ScrollLink
               to={path}
               spy={true}
               smooth={true}
               offset={-100}
               key={path}
-              className="block text-base text-white hover:text-brandPrimary first:font-medium"
+              className="block text-base text-white hover:text-black first:font-medium cursor-pointer"
             >
               {link}
-            </Link>
+            </ScrollLink>
           ))}
         </div>
       </nav>

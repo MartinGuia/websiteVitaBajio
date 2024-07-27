@@ -3,6 +3,7 @@ import Home from "../components/Home";
 import Services from "../components/Services";
 import Catalogue from "../components/Catalogue";
 import AboutUs from "../components/AboutUs";
+import MyFooter from "../components/MyFooter";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
 
       
       <AboutUs />
+      <MyFooter/>
     </>
   );
 }

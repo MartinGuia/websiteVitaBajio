@@ -97,28 +97,8 @@ function Services() {
     setCurrentStep(step);
   };
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="services">
-      <div className="text-center my-8" id="services">
-        <h2 className="text-4xl text-NeutralDGrey font-semibold mb-2">
-          Nuestros clientes
-        </h2>
-        <p className="text-neutralGrey">
-          Damos servicio de venta de llanta nueva y renovado a las principales
-          empresas de transporte de carga, personal y logística en la región
-          Bajío, tales como Express MILAC, Coca Cola, Transportes Tresguerras,
-          Transportes Gym Moncolva, Trans-Energéticos, Royal Transports,
-          Pilgrim’s Pride, Transportes Urbanos de
-          Querétaro,Translíquidos,Transnoel, etc.
-        </p>
-        {/* Company logo */}
-        <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img className="w-[12%]" src={images.amealcenses} alt="" />
-          <img className="w-[12%]" src={images.GYM} alt="" />
-          <img className="w-[12%]" src={images.gab} alt="" />
-          <img className="w-[12%]" src={images.moviza} alt="" />
-          <img className="w-[12%]" src={images.tminerva} alt="" />
-        </div>
-      </div>
+    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto"  id="services">
+      <h1 className="text-4xl text-NeutralDGrey font-semibold mb-2 text-center">Servicios</h1>
       {/* Services card */}
       <div className="flex flex-col md:flex-row justify-between bg-slate-100 rounded p-4 shadow-md">
         <div className=" w-full md:w-2/3 lg:w-1/2 ">
@@ -141,7 +121,7 @@ function Services() {
           </div>
           <div className="flex justify-between">
             <button
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 shadow-md"
+              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 shadow-md cursor-pointer"
               onClick={() => goToStep(Math.max(1, currentStep - 1))}
               disabled={currentStep === 1}
             >
