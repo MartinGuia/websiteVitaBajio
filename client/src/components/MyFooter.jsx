@@ -1,7 +1,6 @@
 import { Footer } from "flowbite-react";
 import {
   BsFacebook,
-  BsGithub,
   BsInstagram,
   BsTwitter,
 } from "react-icons/bs";
@@ -43,13 +42,13 @@ function MyFooter() {
                 <Footer.Link href="https://www.facebook.com/profile.php?id=61559730121097&mibextid=LQQJ4d" target="_blank">Facebook</Footer.Link>
               </Footer.LinkGroup>
             </div>
-            <div>
+            {/* <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#">Privacy Policy</Footer.Link>
                 <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
               </Footer.LinkGroup>
-            </div>
+            </div> */}
           </div>
         </div>
         <Footer.Divider />
@@ -59,7 +58,6 @@ function MyFooter() {
             <Footer.Icon href="https://www.facebook.com/profile.php?id=61559730121097&mibextid=LQQJ4d" target="_blank" icon={BsFacebook} />
             <Footer.Icon href="https://www.instagram.com/mrktg_vb/" target="_blank" icon={BsInstagram} />
             <Footer.Icon href="#" icon={BsTwitter} />
-            {/* <Footer.Icon href="#" icon={BsGithub} /> */}
           </div>
         </div>
       </div>

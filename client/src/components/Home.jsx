@@ -12,7 +12,7 @@ function Home() {
         className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen"
         id="home"
       >
-        <Carousel className="w-full mx-auto duration-700">
+        <Carousel className="w-full mx-auto duration-700" slideInterval={5000}>
           {/* carousel1 */}
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div className="w-[80%] lg:w-auto">
@@ -28,7 +28,7 @@ function Home() {
                 Desde hace mas de 10 años ofreciendo el servicio de venta de
                 llanta nueva y renovada
               </p>
-              <p className="font-semibold">Solicita asesoramiento</p>
+              <p className="font-semibold mb-2">Obtén la información que necesitas al instante solicitando tu cotización. Presiona el botón de WhatsApp o haz clic en "Solicita tu cotización aquí"</p>
               <div>
                 <ButtonWhatsapp phoneNumber={phoneNumber} message={message} />
               </div>

@@ -1,5 +1,5 @@
 import ModalWindow from "../components/ModalWindow.jsx";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import * as images from "../assets/index.js";
 
 function NewFreeAxle() {

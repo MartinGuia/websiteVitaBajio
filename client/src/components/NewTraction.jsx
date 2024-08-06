@@ -1,5 +1,5 @@
 import * as images from "../assets/index.js";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import ModalWindow from "./ModalWindow"; // Importa el componente ModalWindow
 
 function NewTraction() {

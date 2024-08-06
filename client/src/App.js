@@ -5,6 +5,9 @@ import NewCatalog from "./pages/NewCatalog";
 import RenewedCatalog from "./pages/RenewedCatalog";
 import Quotation from "./pages/Quotation";
 import Blog from "./pages/Blog";
+import Blog1 from "./pages/blogs/Blog1";
+import Blog2 from "./pages/blogs/Blog2";
+import Blog3 from "./pages/blogs/Blog3";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path="/llanta-renovada" element={<RenewedCatalog/>} />
         <Route path="/cotizacion" element={<Quotation/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/blog1" element={<Blog1/>} />
+        <Route path="/blog2" element={<Blog2/>} />
+        <Route path="/blog3" element={<Blog3/>} />
       </Routes>
     </BrowserRouter>
   );

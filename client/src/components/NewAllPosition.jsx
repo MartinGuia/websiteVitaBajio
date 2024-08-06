@@ -385,12 +385,12 @@ function NewAllPosition() {
     {
       id: 19,
       title: "FS591",
-      img1: [images.M864],
+      img1: [images.FS591],
       img2: [images.todaPosicion],
       img3: [images.lDistancia],
       img4: [images.Regional],
       caract1:
-        "- Ayuda a obtener el desempeño requerido por los más exigentes, diseñada con costado innovador INTELLISHAPE uqe ayuda a reducir el peso de la llanta sin reducir durabilidad.",
+        "- Ayuda a obtener el desempeño requerido por los más exigentes, diseñada con costado innovador INTELLISHAPE que ayuda a reducir el peso de la llanta sin reducir durabilidad.",
       caract2:
         "- Combina baja resistencia al rodamiento y un casco ahorro de energía para el uso eficiente del combustible.",
       caract3:
