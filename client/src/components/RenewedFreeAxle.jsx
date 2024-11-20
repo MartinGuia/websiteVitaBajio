@@ -230,7 +230,7 @@ function RenewedFreeAxle() {
               <img
                 className="size-28"
                 src={card.img1}
-                alt="Llanta renovada eje libre"
+                alt="Banda renovada eje libre"
               />
             </div>
             <div className="flex">

@@ -20,11 +20,11 @@ function AboutUs() {
         </p>
         {/* Company logo */}
         <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-          <img className="w-[12%]" src={images.amealcenses} alt="" />
-          <img className="w-[12%]" src={images.GYM} alt="" />
-          <img className="w-[12%]" src={images.gab} alt="" />
-          <img className="w-[12%]" src={images.moviza} alt="" />
-          <img className="w-[12%]" src={images.tminerva} alt="" />
+          <img className="w-[12%]" src={images.amealcenses} alt="Clientes" />
+          <img className="w-[12%]" src={images.GYM} alt="Renovada" />
+          <img className="w-[12%]" src={images.gab} alt="Llantas" />
+          <img className="w-[12%]" src={images.moviza} alt="Nuevas" />
+          <img className="w-[12%]" src={images.tminerva} alt="Vita Bajio" />
         </div>
       </div>
       {/* about text */}

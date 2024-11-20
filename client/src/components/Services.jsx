@@ -12,7 +12,7 @@ function Services() {
     {
       title: "Inspección Eléctrica",
       content:
-        "El daño real se evalúa con una maquinaria especializada que permite detectar aquellos daños visibles.",
+        "El daño real se evalúa con una maquinaria especializada que permite detectar aquellos daños no visibles.",
       img: [images.inspeccionElec],
     },
     {
@@ -88,7 +88,7 @@ function Services() {
       id: 3,
       title: "Recibe",
       description:
-        "Recibe en la comodidad de tu empresa o recoge tu pedido en nuestras sucursales.",
+        "Recibe en la comodidad de tu empresa o recoge tu pedido en nuestras instalaciones.",
       icon: <CiDeliveryTruck className="size-14" />,
       to: "/llanta-nueva",
     },
@@ -114,7 +114,7 @@ function Services() {
               <p>{steps[currentStep - 1].content}</p>
               <img
                 src={steps[currentStep - 1].img}
-                alt=""
+                alt="Renovado de Llantas"
                 className="w-[50%]"
               />
             </div>

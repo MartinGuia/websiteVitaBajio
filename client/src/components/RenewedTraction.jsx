@@ -31,26 +31,6 @@ function RenewedTraction() {
     },
     {
       id: 2,
-      title: "B835",
-      img1: [images.B835],
-      img2: [images.todaPosicion],
-      img3: [images.lDistancia],
-      caract1:
-        "- Amplias y profundas ranuras para una tracción sólida y una vida útil prolongada.",
-      caract2:
-        "- Bloques divididos en la banda de rodamiento para controlar el desgaste irregular y contribuir a la poca generación de ruido.",
-      caract3:
-        "- Expulsores de piedras que fortalecen la durabilidad del casco.",
-      medida1: "445/50R22.5",
-      ancho1: "390",
-      ancho2: "400",
-      profundidad1: "18.3",
-      profundidad2: "18.3",
-      logo: [images.bridgestone],
-      logo2: [images.B],
-    },
-    {
-      id: 3,
       title: "DR 5.3",
       img1: [images.DR53],
       img2: [images.todaPosicion],
@@ -80,7 +60,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 4,
+      id: 3,
       title: "Megatrek",
       img1: [images.Megatrek],
       img2: [images.todaPosicion],
@@ -103,7 +83,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 5,
+      id: 4,
       title: "B760",
       img1: [images.B760],
       img2: [images.todaPosicion],
@@ -127,7 +107,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 6,
+      id: 5,
       title: "BDR-HG",
       img1: [images.BDR_HG],
       img2: [images.todaPosicion],
@@ -155,7 +135,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 7,
+      id: 5,
       title: "Econo Drive",
       img1: [images.ECONODRIVE],
       img2: [images.todaPosicion],
@@ -179,7 +159,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 8,
+      id: 6,
       title: "UDR",
       img1: [images.UDR],
       img2: [images.todaPosicion],
@@ -206,7 +186,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 9,
+      id: 7,
       title: "B736",
       img1: [images.B736],
       img2: [images.todaPosicion],
@@ -232,7 +212,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 10,
+      id: 8,
       title: "DR 4.3",
       img1: [images.DR43],
       img2: [images.todaPosicion],
@@ -257,7 +237,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 11,
+      id: 9,
       title: "D4300",
       img1: [images.D4300],
       img2: [images.todaPosicion],
@@ -282,7 +262,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 12,
+      id: 10,
       title: "BDM",
       img1: [images.BDM],
       img2: [images.todaPosicion],
@@ -309,64 +289,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 13,
-      title: "BLSS",
-      img1: [images.BLSS],
-      img2: [images.todaPosicion],
-      img3: [images.off_road],
-      caract1:
-        "- El agresivo diseño de la banda de rodamiento ofrece un agarre firme tanto dentro como fuera de la carretera.",
-      caract2:
-        "- La profunda banda de rodamiento de 25,2 mm brinda más volumen para una mayor vida útil.",
-      caract3:
-        "- La tecnología de rechazo de piedra reduce la retención de piedras.",
-      caract4:
-        "- El compuesto especializado resiste el astillado y los cortes.",
-      medida1: "11R22.5",
-      medida2: "11R24.5",
-      ancho1: "200",
-      ancho2: "220",
-      ancho3: "230",
-      ancho4: "240",
-      profundidad1: "25.4",
-      profundidad2: "25.4",
-      profundidad3: "25.4",
-      profundidad4: "25.4",
-      logo: [images.bridgestone],
-      logo2: [images.B],
-    },
-    {
-      id: 14,
-      title: "CROSSBAR",
-      img1: [images.CROSSBAR],
-      img2: [images.todaPosicion],
-      img3: [images.off_road],
-      caract1:
-        "- Diseño profundo de bloques que ofrecen buen desempeño en operaciones fuera de carretera.",
-      caract2: "- Hombros abiertos que contribuyen a una óptima tracción.",
-      caract3:
-        "- Compuesto que brinda excelente kilometraje y resistencia a las penetraciones.",
-      medida1: "11R22.5",
-      medida2: "11R24.5",
-      ancho1: "2",
-      ancho2: "3",
-      ancho3: "4",
-      ancho4: "5",
-      ancho5: "6",
-      ancho6: "7",
-      ancho7: "8",
-      profundidad1: "11.9",
-      profundidad2: "11.9",
-      profundidad3: "15.1",
-      profundidad4: "15.1",
-      profundidad5: "15.1",
-      profundidad6: "15.1",
-      profundidad7: "15.1",
-      logo: [images.bridgestone],
-      logo2: [images.B],
-    },
-    {
-      id: 15,
+      id: 11,
       title: "Rock Lug Modified",
       img1: [images.RockLugModified],
       img2: [images.todaPosicion],
@@ -385,7 +308,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 16,
+      id: 12,
       title: "Grader",
       img1: [images.Grader],
       img2: [images.todaPosicion],
@@ -404,7 +327,7 @@ function RenewedTraction() {
       logo2: [images.B],
     },
     {
-      id: 17,
+      id: 14,
       title: "BDLT",
       img1: [images.BDLT],
       img2: [images.todaPosicion],
@@ -426,28 +349,6 @@ function RenewedTraction() {
       profundidad2: "12.7",
       profundidad3: "12.7",
       profundidad4: "12.7",
-      logo: [images.bridgestone],
-      logo2: [images.B],
-    },
-    {
-      id: 18,
-      title: "Comercial traction",
-      img1: [images.CT],
-      img2: [images.todaPosicion],
-      img3: [images.off_road],
-      caract1:
-        "- Vida útil mejorada, para más kilómetros de rendimiento con bajo costo de combustible en comparación con la generación anterior de Bandag B710.",
-      caract2:
-        "- 130% más de bordes de agarre para mejorar la tracción en comparación con la generación anterior de Bandag B710.",
-      caract3:
-        "- Distribuye el peso y la torsión de forma más uniforme para combatir el desgaste.",
-      medida1: "195R15",
-      medida2: "7.50R17",
-      medida3: "215/80R16",
-      ancho1: "600",
-      ancho2: "800",
-      profundidad1: "13.2",
-      profundidad2: "13.2",
       logo: [images.bridgestone],
       logo2: [images.B],
     },
@@ -483,7 +384,7 @@ function RenewedTraction() {
               <img
                 className="size-28"
                 src={card.img1}
-                alt="Llanta renovada de tracción"
+                alt="Banda renovada de tracción"
               />
             </div>
             <div className="flex">

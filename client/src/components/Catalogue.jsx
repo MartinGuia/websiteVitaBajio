@@ -6,7 +6,7 @@ function Catalogue() {
   const catalogues = [
     {
       id: 1,
-      title: "Llanta renovada",
+      title: "Banda renovada",
       description:
         "Descubre nuestra gama de llantas renovadas, una opción ecológica y económica que no sacrifica la calidad.",
       icon: <GiFlatTire className="size-14 -ml-5" />,

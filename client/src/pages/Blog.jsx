@@ -54,7 +54,7 @@ function Blog() {
                 key={blog.id}
                 className="mx-auto relative mb-12 cursor-pointer"
               >
-                <img src={blog.img} alt="" className="rounded" />
+                <img src={blog.img} alt="Llantas" className="rounded" />
                 <div className="text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-12">
                   <h3>{blog.title}</h3>
                   <div className="flex items-center justify-center gap-5">

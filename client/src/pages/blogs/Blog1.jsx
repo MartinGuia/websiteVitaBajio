@@ -21,7 +21,7 @@ function Blog1() {
             <img
               className="rounded-2xl mt-10 md:w-[80%] lg:w-[60%] shadow-md"
               src={images.blog1Large}
-              alt=""
+              alt="Llanta Nueva"
             />
             <h1 className="text-4xl mt-12 text-NeutralDGrey font-semibold mb-2 text-center">
               Lo que debe tener en cuenta al comprar llantas

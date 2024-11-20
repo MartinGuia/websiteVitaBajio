@@ -17,7 +17,7 @@ function MyFooter() {
             <img
               className="w-20 lg:w-32 inline-block items-center"
               src={images.logoVB}
-              alt=""
+              alt="Vita Bajío"
             />
             {/* <span className="text-[#263238]">Vita Bajío</span> */}
           </a>

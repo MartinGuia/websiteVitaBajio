@@ -265,11 +265,11 @@ function RenewedAllPosition() {
               <img
                 className="size-28"
                 src={card.img1}
-                alt="Llanta nueva para toda posición"
+                alt="Banda renovada para toda posición"
               />
             </div>
             <div className="flex">
-              <img src={card.img2} alt="Troda posición" />
+              <img src={card.img2} alt="Toda posición" />
               <img src={card.img3} alt="Tipo de camino" />
               <img src={card.img4} alt="" />
             </div>
