@@ -63,7 +63,7 @@ function Navbar() {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium cursor-pointer"
+                className="block text-base text-gray900 hover:text-yellow-300 first:font-medium cursor-pointer"
               >
                 {link}
               </ScrollLink>

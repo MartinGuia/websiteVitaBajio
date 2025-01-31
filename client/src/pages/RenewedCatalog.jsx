@@ -52,7 +52,7 @@ function RenewedCatalog() {
       <section className="flex flex-col items-center mt-4">
         <div>
           <h1 className="text-4xl text-NeutralDGrey font-semibold mb-2 text-center">
-            Banda renovada
+            Llanta renovada
           </h1>
         </div>
         <div className="relative bottom-6 right-[40%]">

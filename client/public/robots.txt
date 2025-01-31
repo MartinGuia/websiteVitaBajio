@@ -1,4 +1,12 @@
-# https://www.robotstxt.org/robotstxt.html
+# Archivo robots.txt optimizado para SEO
 User-agent: *
 Disallow: /admin/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /static/
+
+# Sitemap principal
 Sitemap: https://vitabajio.com/sitemap.xml
+
+# Sitemap de imágenes (si lo generas)
+Sitemap: https://vitabajio.com/sitemap-images.xml

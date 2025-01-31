@@ -20,7 +20,7 @@ function Home() {
   }, []);
 
   return (
-    <div className=" bg-my-backgroundImage bg-no-repeat bg-cover bg-center">
+    <div className="">
       <div
         className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen"
         id="home"
@@ -67,7 +67,7 @@ function Home() {
                 acuerdo a la necesidad de cada uno de nuestros clientes.
               </p>
               <Link to="/cotizacion">
-                <button className="btn-primary">Cotiza tus llantas</button>
+                <button className="bg-red-600 text-white p-3 hover:-translate-y-1 hover:bg-red-500 duration-500 hover:duration-500 shadow rounded-lg">Cotiza tus llantas</button>
               </Link>
             </div>
           </div>
